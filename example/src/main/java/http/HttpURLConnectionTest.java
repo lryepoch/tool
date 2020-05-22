@@ -1,4 +1,4 @@
-package api;
+package http;
 
 import java.io.DataInputStream;
 import java.io.IOException;
