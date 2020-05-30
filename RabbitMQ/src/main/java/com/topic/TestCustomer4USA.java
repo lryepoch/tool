@@ -1,53 +1,40 @@
-package com.fanout;
+package com.topic;
 
-import cn.hutool.core.util.RandomUtil;
+import com.fanout.RabbitMQUtil;
 import com.rabbitmq.client.*;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-
 /**
  * @author lryepoch
- * @date 2020/5/22 18:13
+ * @date 2020/5/25 9:44
  * @description TODO
  */
-public class TestCustomer {
-    public final static String EXCHANGE_NAME = "fanout_exchange";
+public class TestCustomer4USA {
+    public final static String EXCHANGE_NAME = "topics_exchange";
 
     public static void main(String[] args) throws IOException, TimeoutException {
-        //为当前消费者取随机名
-        final String name = "consumer-" + RandomUtil.randomString(5);
+        final String name = "consumer-usa";
 
-        //判断服务器是否启动
         RabbitMQUtil.checkServer();
-        ;
 
-        //创建连接工厂
         ConnectionFactory factory = new ConnectionFactory();
 
-        //设置RabbitMQ地址
         factory.setHost("localhost");
 
-        //创建一个新的连接
         Connection connection = factory.newConnection();
 
-        //创建一个通道
         Channel channel = connection.createChannel();
 
-        //交换机声明(参数为：交换机名称；交换机类型)
-        channel.exchangeDeclare(EXCHANGE_NAME, "direct");
-
+        channel.exchangeDeclare(EXCHANGE_NAME, "topic");
         //获取一个临时队列
         String queueName = channel.queueDeclare().getQueue();
 
-        //队列与交换机绑定
-        channel.queueBind(queueName, EXCHANGE_NAME, "");
-
+        //接收关于usa的信息
+        channel.queueBind(queueName, EXCHANGE_NAME, "usa.*");
         System.out.println(name + "等待接受消息");
 
-        //DefaultConsumer类实现了Consumer接口，通过传入一个频道，
-        // 告诉服务器我们需要那个频道的消息，如果频道中有消息，就会执行回调函数handleDelivery
         Consumer consumer = new DefaultConsumer(channel) {
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {

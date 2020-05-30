@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1a98c6-0dc0-4162-b0a8-09275625dea0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/example.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/CloseableHttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/http/CloseableHttpClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/DefaultHttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/http/DefaultHttpClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/HttpURLConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/http/HttpURLConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/example.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/CloseableHttpClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/DefaultHttpClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/HttpURLConnectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RabbitMQ/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,7 +38,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -187,7 +177,7 @@
     <option name="totallyTimeSpent" value="1488000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -204,7 +194,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32925472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
