@@ -1,8 +1,6 @@
 package http;
 
-import java.io.DataInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -44,6 +42,8 @@ public class HttpURLConnectionTest {
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             //设置请求方式为post
             conn.setRequestMethod("POST");
+//            conn.setRequestProperty(key,value);
+
             //设置连接超时时间
             conn.setConnectTimeout(1000*60);
             //设置读取超时时间
@@ -62,6 +62,9 @@ public class HttpURLConnectionTest {
 
             if (conn.getResponseCode()==HttpURLConnection.HTTP_OK) {
                 InputStream inputStream = conn.getInputStream();
+
+//                BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+
                 //将流转换成字符串
                 String result = inputStream.toString();
                 System.out.println(result);
