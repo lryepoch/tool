@@ -26,6 +26,8 @@ public class CompareTest2 {
         Collections.sort(employees);
         System.out.println(employees);
 
+
+        System.out.println("------------------------");
         List<Employee> employees2 = new ArrayList<Employee>();
         employees2.add(new Employee(2, 5000));
         employees2.add(new Employee(1, 4500));

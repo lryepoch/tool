@@ -3,6 +3,7 @@ package lambda;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +12,7 @@ import java.util.List;
  * @date 2020/1/10 9:40
  * @description TODO
  * <p>
- *      使用lambda表达式中的各种引用
+ * 使用lambda表达式中的各种引用
  * </p>
  */
 public class Test {
@@ -32,12 +33,14 @@ public class Test {
 //        });
 //        System.out.println(personList);
 
+
         //2.lambda表达式的实现方式
 //        Collections.sort(personList, (p1, p2) -> p1.getAge() - p2.getAge());
 //        System.out.println(personList);
 
+
         //3.静态方法引用
-//        Collections.sort(personList,Person::compareByAge);
+//        Collections.sort(personList, Person::compareByAge);
 //        System.out.println(personList);
 
         //4.实例方法引用
@@ -54,6 +57,9 @@ public class Test {
 
     }
 }
+
+
+
 
 @Data
 @AllArgsConstructor
@@ -77,6 +83,11 @@ class Person {
     }
 }
 
+
+
+
+
+
 class PersonUtil {
     /**
      * 增加一个实例方法
@@ -85,6 +96,12 @@ class PersonUtil {
         return p1.getName().hashCode() - p2.getName().hashCode();
     }
 }
+
+
+
+
+
+
 
 interface IPerson {
     /**

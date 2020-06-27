@@ -3,7 +3,7 @@ package clone;
 /**
  * @author lryepoch
  * @date 2020/6/4 14:07
- * @description TODO 浅克隆
+ * @description TODO 克隆
  */
 public class CloneTest {
     public static void main(String[] args) throws CloneNotSupportedException {

@@ -34,7 +34,7 @@ public class Test2 {
 //            }
 //        }
 
-        //1.3 stream 结合 lambda表达式，完成业务处理
+        //1.3 stream 结合 lambda表达式，完成业务处理（s代表集合中的一个元素）
         List validAccounts = accounts.stream().filter(s -> s.length()>=5).collect(Collectors.toList());
         System.out.println(validAccounts);
 

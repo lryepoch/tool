@@ -1,12 +1,13 @@
 package lambda;
 
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
  * @author 260408
  * @date 2020/1/10 14:54
- * @description TODO 各种数据类型和Stream之间的转换
+ * @description TODO 各种数据类型(数组，集合)和Stream之间的转换
  */
 public class Test3 {
     public static void main(String[] args) {
@@ -40,11 +41,14 @@ public class Test3 {
         Stream stream5 = map.entrySet().stream();
 
 
+
         //2.Stream对象对于基本数据类型的功能封装
         //int/long/double
 //        IntStream.of(new int[]{10,20,30}).forEach(System.out::println);
 //        IntStream.range(1,5).forEach(System.out::println);
 //        IntStream.rangeClosed(1,5).forEach(System.out::println);
+
+
 
         //3.Stream对象-->转换得到指定的数据类型
         //数组
@@ -67,6 +71,9 @@ public class Test3 {
 //        Map<String,String> mapx = (Map<String,String>) stream1.collect(Collectors.toMap(x->x,y->"value:"+y));
 //        System.out.println(mapx);
 
+
+
+
         //4.Stream中常见的API操作
         List<String> accountsList = new ArrayList<>();
         accountsList.add("tom");
@@ -77,9 +84,10 @@ public class Test3 {
 
 
         //map()中间操作，map()方法接收一个Functional接口
+        //map()按照一定规则将原有对象转换成一个新的对象，但原对象不改变
 //        accountsList = accountsList.stream().map(x->"哈哈哈:"+x).collect(Collectors.toList());
-//        accountsList.forEach(System.out::println);
-//        System.out.println(accountsList);
+//        accountsList.forEach(System.out::println);//一个一个地输出
+//        System.out.println(accountsList);//全部输出
 
         //filter()添加过滤条件，过滤符合条件的用户
 //        accountsList = accountsList.stream().filter(x-> x.length() > 5).collect(Collectors.toList());
@@ -95,6 +103,7 @@ public class Test3 {
 //                .peek(x -> System.out.println("peek 1:" + x))
 //                .peek(x -> System.out.println("peek 2:" + x))
 //                .forEach(System.out::println);
+
 
         //Stream中对于数字运算的支持
         List<Integer> integerList = new ArrayList<>();
