@@ -4,64 +4,28 @@ import cn.com.xls.bean.Area;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Workbook;
 
 import java.io.File;
-import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
+
 
 /**
  * @author lryepoch
- * @date 2019-11-30 2019/11/30
- * @description
+ * @date 2020/7/3 14:59
+ * @description TODO
  */
-public class XlsController {
+public class Export_xls {
 
-    public List<Area> importXLS() {
-        List<Area> list = new ArrayList<Area>();
-
-        try {
-            File file = new File("C:\\Users\\260408\\Desktop\\区域数据.xls");
-            //1.获取文件输入流
-            InputStream inputStream = new FileInputStream(file);
-            //2.获取Excel工作簿对象
-            HSSFWorkbook workbook = new HSSFWorkbook(inputStream);
-            //3.得到Excel工作表对象
-            HSSFSheet sheetAt = workbook.getSheetAt(0);
-            //4.循环读取表格数据
-            for (Row row : sheetAt) {
-                //首行（即表头）不读取,直接跳过首行
-                if (row.getRowNum() == 0) {
-                    continue;
-                }
-                //读取当前行中单元格数据，索引从0开始
-                String areaNum = row.getCell(0).getStringCellValue();
-                String province = row.getCell(1).getStringCellValue();
-                String city = row.getCell(2).getStringCellValue();
-                String district = row.getCell(3).getStringCellValue();
-                String postcode = row.getCell(4).getStringCellValue();
-
-                Area area = new Area();
-                area.setAreaNum(areaNum);
-                area.setProvince(province);
-                area.setCity(city);
-                area.setDistrict(district);
-                area.setPostcode(postcode);
-                list.add(area);
-            }
-            //5.关闭流
-            workbook.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return list;
-    }
-
-    public void exportXLS() throws IOException {
+    /**
+     * @description 生成数据到excel表
+     * @author lryepoch
+     * @date 2020/7/3 10:38
+     */
+    public static void exportXLS() throws IOException {
         //声明一个字符串数组
         String[] strings = {"广东", "珠海", "香洲", "A525239"};
         //1.在内存中创建一个excel文件
@@ -84,6 +48,7 @@ public class XlsController {
             dataRow.createCell(2).setCellValue(area);
             dataRow.createCell(3).setCellValue(area);
         }
+
 /*        //5.创建文件名
         String fileName = "区域数据统计.xls";
         //6.获取输出流对象
@@ -101,18 +66,55 @@ public class XlsController {
         //10.写出文件，关闭流
         hssfWorkbook.write(outputStream);
         hssfWorkbook.close();*/
+
     }
 
-    public static void main(String[] args) {
-        XlsController xls = new XlsController();
-        List<Area> list = xls.importXLS();
-        //利用Iterator输出到控制台
-        Iterator iterator = list.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
+
+
+    public static void main(String[] args) throws IOException {
+//        exportXLS();
+
+        List<Area> areas = new ArrayList<Area>();
+        Area area1 = new Area();
+        area1.setAreaNum(2);
+        area1.setProvince("江西");
+        area1.setCity("赣州");
+        area1.setDistrict("xx");
+        area1.setPostcode(70898) ;
+
+        Area area2 = new Area();
+        area2.setAreaNum(3);
+        area2.setProvince("北京");
+        area2.setCity("北京");
+        area2.setDistrict("oo");
+        area2.setPostcode(7098) ;
+
+        areas.add(area1);
+        areas.add(area2);
+
+        //写入数据到工作簿对象中
+        Workbook workbook = ExcelWriter.exportData(areas);
+
+        //以文件形式输出工作簿对象
+        FileOutputStream fileOutputStream = null;
+        String path = "C:\\Users\\260408\\Desktop\\1.xls";
+        File file = new File(path);
+        if (!file.exists()){
+            file.createNewFile();
         }
-        System.out.println();
-        System.out.println(list);
 
+        fileOutputStream = new FileOutputStream(file);
+        workbook.write(fileOutputStream);
+        fileOutputStream.flush();
+
+        System.out.println("——————————已生成excel文件——————————");
+
+        if (fileOutputStream != null) {
+            fileOutputStream.close();
+        }
+        if (workbook != null) {
+            workbook.close();
+        }
     }
+
 }

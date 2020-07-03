@@ -9,9 +9,9 @@ import lombok.Data;
  */
 @Data
 public class Area {
-    private String areaNum;
+    private Integer areaNum;
     private String province;
     private String city;
     private String district;
-    private String postcode;
+    private Integer postcode;
 }
