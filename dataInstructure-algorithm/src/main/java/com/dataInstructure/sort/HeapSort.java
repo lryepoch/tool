@@ -1,4 +1,4 @@
-package sort;
+package com.dataInstructure.sort;
 
 public class HeapSort {
 	public void heapAdjust(int[] a,int s,int length){

@@ -1,4 +1,4 @@
-package sort;
+package com.dataInstructure.sort;
 
 public class BubbleSort {
 	public void bubbleSort(int[] a) {

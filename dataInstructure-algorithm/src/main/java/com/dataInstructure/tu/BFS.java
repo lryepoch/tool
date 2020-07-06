@@ -1,4 +1,4 @@
-package tu;
+package com.dataInstructure.tu;
 
 public class BFS {
 	// 用来存储顶点的数组

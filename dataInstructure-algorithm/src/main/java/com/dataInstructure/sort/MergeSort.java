@@ -1,4 +1,4 @@
-package sort;
+package com.dataInstructure.sort;
 
 public class MergeSort {
 	public void merge(int[] a, int start, int mid, int end) {

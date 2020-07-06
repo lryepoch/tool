@@ -1,4 +1,4 @@
-package sort;
+package com.dataInstructure.sort;
 
 import java.util.Scanner;
 

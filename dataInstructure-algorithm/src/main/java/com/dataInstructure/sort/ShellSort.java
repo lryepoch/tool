@@ -1,4 +1,4 @@
-package sort;
+package com.dataInstructure.sort;
 
 public class ShellSort {
 	public void shellSort(int[] a){

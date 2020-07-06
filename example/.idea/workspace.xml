@@ -2,6 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada33326-5e58-4d71-87ac-2dad2562cf0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/RadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/stack_queue/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/stack_queue/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/stack_queue/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/stack_queue/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/tu/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/tu/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/tu/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/tu/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/tu/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/src/main/java/com/dataInstructure/tu/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -77,9 +92,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="664" />
-    <option name="y" value="176" />
-    <option name="width" value="1022" />
+    <option name="x" value="-8" />
+    <option name="width" value="1011" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -235,16 +249,15 @@
       <updated>1593238819871</updated>
       <workItem from="1593238821270" duration="4008000" />
       <workItem from="1593426084755" duration="20135000" />
-      <workItem from="1594016072279" duration="3297000" />
+      <workItem from="1594016072279" duration="4101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27440000" />
+    <option name="totallyTimeSpent" value="28244000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.20439914" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.19635193" />
@@ -255,7 +268,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2814238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2814238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,43 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quartz/MyScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quartz/MyScheduler2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/timed_task/TestTimeOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quartz/PrintWordsJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/timed_task/TestTimeOrder2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -486,6 +462,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/timed_task/TestTimeOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quartz/PrintWordsJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quartz/MyScheduler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quartz/MyScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

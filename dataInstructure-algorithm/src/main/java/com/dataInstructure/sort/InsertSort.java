@@ -1,4 +1,4 @@
-package sort;
+package com.dataInstructure.sort;
 
 public class InsertSort {
 	public void insertSort(int[] A) {

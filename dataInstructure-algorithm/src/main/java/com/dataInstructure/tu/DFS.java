@@ -1,4 +1,4 @@
-package tu;
+package com.dataInstructure.tu;
 
 import java.util.Stack;
 
@@ -85,7 +85,7 @@ public class DFS {
 		stack.push(0);
 		while (!stack.isEmpty()) {
 			// 获得一个【当前栈顶结点】未访问过的邻接点
-			int v = getadjUnvisitedVertex((int) stack.peek());
+			int v = getadjUnvisitedVertex((Integer) stack.peek());
 			if (v == -1) {
 				// 弹出一个顶点
 				stack.pop();

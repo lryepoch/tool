@@ -1,4 +1,4 @@
-package sort;
+package com.dataInstructure.sort;
 
 public class QuickSort {
 	public int partition(int[] a,int low,int high) {

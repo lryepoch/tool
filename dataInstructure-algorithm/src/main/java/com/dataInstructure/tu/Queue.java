@@ -1,4 +1,4 @@
-package tu;
+package com.dataInstructure.tu;
 
 public class Queue {
 	private final int SIZE = 20;
