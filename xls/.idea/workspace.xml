@@ -2,20 +2,242 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d52c52-27c5-458c-ac16-d012ed2b4386" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../example/src/main/java/timed_task/TestTimeOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../example/src/main/java/timed_task/TestTimeOrder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../example/src/main/java/timed_task/TestTimeOrder3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/ExcelWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/Export_xls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/Import_xls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../brushProblem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataInstructure-algorithm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPattern/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/leetcode/TwoNums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/newcoder/NiuNiu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/Carry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/CreateMan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/Judge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/Man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/Max.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/NextDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/TestString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/UsePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/others/luanxu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/regex/IDcard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/regex/Regex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/sprider/URLDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/tooffer/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/tooffer/Qo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/bin/tooffer/q3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/leetcode/TwoNums.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/newcoder/NiuNiu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/others/CreateMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/others/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/others/Judge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/others/Max.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/others/NextDay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/others/TestString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/others/UsePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/others/luanxu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/regex/IDcard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/regex/Regex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/sprider/URLDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/tooffer/Qo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brushProblem/src/tooffer/q3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/@dataInstructure&amp;algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/array/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/sort/Bubble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/sort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/sort/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/sort/RadixSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/sort/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/sort/ShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/stack_queue/QueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/stack_queue/StackTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/tu/BFS$Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/tu/BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/tu/DFS$Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/tu/DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/bin/tu/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/array/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/sort/Bubble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/sort/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/sort/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/sort/InsertSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/sort/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/sort/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/sort/RadixSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/sort/SelectSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/sort/ShellSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/stack_queue/QueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/stack_queue/StackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/tu/BFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/tu/DFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataInstructure&amp;algorithm/src/tu/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/@designMode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/AbstractFactoryPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/Blue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/ColorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/FactoryProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/Green.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/Red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_abstractFactory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_flyweight/ConcreteFlyweight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_flyweight/Flyweight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_flyweight/FlyweightFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_flyweight/FlyweightPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_observer/F_observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_observer/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_observer/ObserverPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_observer/S_observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_observer/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_observer/T_Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_prototype/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_prototype/PrototypePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_prototype/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_prototype/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_prototype/ShapeCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/_prototype/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/command/Broker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/command/BuyStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/command/CommandPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/command/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/command/SellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/command/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/composite/CompositePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/composite/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/decorator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/decorator/DecoratorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/decorator/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/decorator/RedShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/decorator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/decorator/ShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/factory/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/factory/FactoryPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/factory/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/factory/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/factory/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/factory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/iterator/Container.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/iterator/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/iterator/IteratorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/iterator/NameRepository$NameIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/iterator/NameRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/proxy/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/proxy/ProxyImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/proxy/ProxyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/proxy/RealImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/singleton/SingleObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/singleton/SingletonPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/strategy/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/strategy/OperationAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/strategy/OperationMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/strategy/OperationSubstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/strategy/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/strategy/StrategyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/template/Cricket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/template/Football.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/template/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/bin/template/TemplatePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/AbstractFactoryPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/Blue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/ColorFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/FactoryProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/Green.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/Red.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/ShapeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_abstractFactory/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_flyweight/ConcreteFlyweight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_flyweight/Flyweight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_flyweight/FlyweightFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_flyweight/FlyweightPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_observer/F_observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_observer/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_observer/ObserverPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_observer/S_observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_observer/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_observer/T_Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_prototype/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_prototype/PrototypePatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_prototype/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_prototype/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_prototype/ShapeCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/_prototype/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/command/Broker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/command/BuyStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/command/CommandPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/command/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/command/SellStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/command/Stock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/composite/CompositePatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/composite/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/decorator/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/decorator/DecoratorPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/decorator/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/decorator/RedShapeDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/decorator/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/decorator/ShapeDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/factory/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/factory/FactoryPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/factory/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/factory/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/factory/ShapeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/factory/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/iterator/Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/iterator/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/iterator/IteratorPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/iterator/NameRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/proxy/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/proxy/ProxyImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/proxy/ProxyPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/proxy/RealImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/singleton/SingleObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/singleton/SingletonPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/strategy/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/strategy/OperationAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/strategy/OperationMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/strategy/OperationSubstract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/strategy/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/strategy/StrategyPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/template/Cricket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/template/Football.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/template/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designMode/src/template/TemplatePatternDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/xls/bean/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/xls/bean/Area.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/XlsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/ExcelWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/ExcelWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/Export_xls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/Export_xls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/Import_xls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/xls/web/Import_xls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/xls.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/xls/web/ExcelWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/xls/web/ExcelWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/xls/web/Export_xls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/xls/web/Export_xls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/xls/web/Import_xls$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/xls/web/Import_xls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/xls/web/Import_xls.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,26 +247,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/web/Export_xls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2634#2640#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,10 +283,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/cn/com/xls/bean/Area.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/com/xls/web/XlsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/com/xls/web/Import_xls.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/com/xls/web/ExcelWriter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/xls/web/Import_xls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/xls/web/ExcelReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/com/xls/web/Export_xls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/xls/web/ExcelWriter.java" />
       </list>
     </option>
   </component>
@@ -81,6 +304,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xls" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xls" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -155,6 +394,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -183,7 +423,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Export_xls">
+  <component name="RunManager" selected="Application.Import_xls">
     <configuration name="Export_xls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.xls.web.Export_xls" />
       <module name="xls" />
@@ -225,8 +465,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Export_xls" />
         <item itemvalue="Application.Import_xls" />
+        <item itemvalue="Application.Export_xls" />
         <item itemvalue="Application.XlsController" />
       </list>
     </recent_temporary>
@@ -241,16 +481,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593669511598</updated>
-      <workItem from="1593669513002" duration="21921000" />
+      <workItem from="1593669513002" duration="28907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21921000" />
+    <option name="totallyTimeSpent" value="28907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -264,19 +503,19 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5005365" side_tool="true" weight="0.36929923" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3280899" />
+      <window_info anchor="bottom" id="Messages" weight="0.32703003" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.43159065" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Maven" weight="0.3299356" />
       <window_info anchor="right" id="RestServices" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Database" weight="0.3299356" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -295,37 +534,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/bean/Area.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/web/Import_xls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="209" column="58" lean-forward="true" selection-start-line="209" selection-start-column="58" selection-end-line="209" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/web/ExcelWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -337,13 +549,56 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/web/Export_xls.java">
+    <entry file="jar://D:/apache-maven-3.5.4/repository/org/apache/poi/poi/4.0.1/poi-4.0.1.jar!/org/apache/poi/ss/usermodel/Sheet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        <state relative-caret-position="-2013">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/web/Import_xls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2634#2640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/web/ExcelWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/web/Export_xls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="102" column="35" lean-forward="true" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/bean/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/xls/web/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="149" column="27" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

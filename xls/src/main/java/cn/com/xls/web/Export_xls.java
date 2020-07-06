@@ -49,7 +49,8 @@ public class Export_xls {
             dataRow.createCell(3).setCellValue(area);
         }
 
-/*        //5.创建文件名
+        /*
+        //5.创建文件名
         String fileName = "区域数据统计.xls";
         //6.获取输出流对象
         HttpServletResponse response = ServletActionContext.getResponse();
@@ -65,7 +66,8 @@ public class Export_xls {
         response.setHeader("Content-Disposition","attachment;filename="+fileName);
         //10.写出文件，关闭流
         hssfWorkbook.write(outputStream);
-        hssfWorkbook.close();*/
+        hssfWorkbook.close();
+        */
 
     }
 

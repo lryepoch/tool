@@ -40,16 +40,16 @@ public class ExcelWriter {
         //生成sheet表，写入第一行的列头
         Sheet sheet = buildDataSheet(workbook);
 
-        //构建每行的数据内容
+        //构建每行的数据内容（第0行已经作为列头）
         int rowNum = 1;
-        for(Iterator<Area> it = dataList.iterator(); it.hasNext(); ){
+        for (Iterator<Area> it = dataList.iterator(); it.hasNext(); ) {
             Area data = it.next();
             if (data == null) {
                 continue;
             }
             //输出行数据
             Row row = sheet.createRow(rowNum++);
-            convertDataToRow(data,row);
+            convertDataToRow(data, row);
         }
         return workbook;
     }
@@ -72,7 +72,7 @@ public class ExcelWriter {
         CellStyle cellStyle = buildHeadCellStyle(sheet.getWorkbook());
         //写入第一行各列的数据
         Row head = sheet.createRow(0);
-        for (int i= 0; i< CELL_HEADS.size();i++){
+        for (int i = 0; i < CELL_HEADS.size(); i++) {
             Cell cell = head.createCell(i);
             cell.setCellValue(CELL_HEADS.get(i));
             cell.setCellStyle(cellStyle);
@@ -109,8 +109,8 @@ public class ExcelWriter {
 
     /**
      * 将数据转换成行
-     * */
-    public static void convertDataToRow(Area area,Row row){
+     */
+    public static void convertDataToRow(Area area, Row row) {
         int cellNum = 0;
         Cell cell;
         //地区编码
@@ -121,7 +121,7 @@ public class ExcelWriter {
         cell.setCellValue(area.getProvince());
         //城市
         cell = row.createCell(cellNum++);
-        cell.setCellValue(area.getCity()==null?"":area.getCity());
+        cell.setCellValue(area.getCity() == null ? "" : area.getCity());
         //区域
         cell = row.createCell(cellNum++);
         cell.setCellValue(area.getDistrict());
