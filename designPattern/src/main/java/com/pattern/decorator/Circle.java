@@ -1,11 +1,10 @@
-package decorator;
+package com.pattern.decorator;
 
 public class Circle implements Shape {
 
 	@Override
 	public void draw() {
-		// TODO Auto-generated method stub
-		System.out.println("Shape:Circle");
+		System.out.println("the shape is Circle");
 
 	}
 

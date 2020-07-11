@@ -1,4 +1,4 @@
-package template;
+package com.pattern.template;
 
 public abstract class Game {
 	abstract void initialize();

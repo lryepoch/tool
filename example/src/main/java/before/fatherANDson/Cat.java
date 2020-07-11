@@ -1,6 +1,8 @@
-package fatherANDson;
+package before.fatherANDson;
 
-public class Cat extends Animal{
+import before.fatherANDson.Animal;
+
+public class Cat extends Animal {
 	private String head="2";
 
 	private String eye="3";

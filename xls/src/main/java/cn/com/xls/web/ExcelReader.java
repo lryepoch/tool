@@ -29,7 +29,7 @@ public class ExcelReader {
      * @author lryepoch
      * @date 2020/7/3 10:38
      */
-    public static List<Area> insert(String path) throws IOException {
+    public static List<Area> parse(String path) throws IOException {
         List<Area> list = new ArrayList<Area>();
 
         File file = new File(path);

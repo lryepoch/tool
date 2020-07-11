@@ -1,6 +1,7 @@
-package factory;
+package com.pattern.factory;
 
 public class ShapeFactory {
+
 	public Shape getShape(String shapeType){
 		if(shapeType == null){
 			return null;

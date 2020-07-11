@@ -1,4 +1,6 @@
-package singleton;
+package com.pattern.singleton;
+
+import java.util.concurrent.ThreadFactory;
 
 public class SingleObject {
 	
@@ -15,9 +17,11 @@ public class SingleObject {
 //	}
 	
 	public void showMessage(){
-		System.out.println("Hello World!");
+		System.out.println(Thread.currentThread().getId());
 	}
-	
+
+
+
 //双重校验锁
 //	private volatile static SingleObject singleObject;
 	
@@ -35,7 +39,9 @@ public class SingleObject {
 //		}
 //		return singleObject;
 //	}
-	
+
+
+
 	//懒汉式
 	private static SingleObject singleObject;
 	

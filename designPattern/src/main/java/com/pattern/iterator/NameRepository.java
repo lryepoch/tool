@@ -1,4 +1,4 @@
-package iterator;
+package com.pattern.iterator;
 
 public class NameRepository implements Container {
 	public String names[] ={"Robert","John","Julie","Lora"};

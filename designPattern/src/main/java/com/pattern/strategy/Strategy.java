@@ -1,5 +1,7 @@
-package strategy;
+package com.pattern.strategy;
 
 public interface Strategy {
-	public int doOperation(int num1,int num2);
+
+	int doOperation(int num1,int num2);
+
 }
