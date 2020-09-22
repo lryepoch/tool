@@ -26,7 +26,7 @@ public class Test {
             fos.write(bytes);
         }
 
-        /**read(byte[] bytes,int off ,int len)  用指定长度读取一个数组
+        /**read(byte[] bytes,int off,int len)  用指定长度读取一个数组
          * write(bytes,0,len)【推荐】
          */
         byte[] bytes1 = new byte[1024*5];

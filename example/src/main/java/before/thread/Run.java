@@ -1,4 +1,4 @@
-package thread;
+package before.thread;
 
 public class Run {
 	public static void main(String[] args){

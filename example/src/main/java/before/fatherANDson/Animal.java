@@ -1,4 +1,4 @@
-package fatherANDson;
+package before.fatherANDson;
 
 public class Animal {
 	private String head="1";

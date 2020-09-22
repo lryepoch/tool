@@ -1,4 +1,4 @@
-package thread;
+package before.thread;
 
 public class CountOperate extends Thread{
 	public CountOperate(){

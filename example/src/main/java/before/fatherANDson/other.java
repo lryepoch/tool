@@ -1,4 +1,4 @@
-package fatherANDson;
+package before.fatherANDson;
 
 //Java中类加载的顺序
 class C {
