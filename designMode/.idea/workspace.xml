@@ -1,7 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="569b1857-411d-46f2-8fc9-2ad8d60b2ea9" name="Default Changelist" comment="" />
+    <list default="true" id="e807e2f1-8c03-4629-b9d4-321f9c762c12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/AbstractFactoryPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/Blue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/ColorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/FactoryProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/Green.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/Red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_abstractFactory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_flyweight/ConcreteFlyweight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_flyweight/Flyweight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_flyweight/FlyweightFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_flyweight/FlyweightPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_observer/F_observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_observer/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_observer/ObserverPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_observer/S_observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_observer/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_observer/T_Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_prototype/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_prototype/PrototypePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_prototype/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_prototype/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_prototype/ShapeCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/_prototype/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/command/Broker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/command/BuyStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/command/CommandPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/command/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/command/SellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/command/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/composite/CompositePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/composite/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/DecoratorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/RedShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/decorator/ShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/factory/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/factory/FactoryPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/factory/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/factory/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/factory/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/factory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/iterator/Container.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/iterator/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/iterator/IteratorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/iterator/NameRepository$NameIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/iterator/NameRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/proxy/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/proxy/ProxyImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/proxy/ProxyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/proxy/RealImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/singleton/SingleObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/singleton/SingletonPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/strategy/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/strategy/OperationAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/strategy/OperationMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/strategy/OperationSubstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/strategy/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/strategy/StrategyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/template/Cricket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/template/Football.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/template/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/template/TemplatePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,29 +84,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-256068402">
+    <session id="-1269965383">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FileEditorManager">
-    <leaf />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -39,52 +107,106 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Java\maven\repository" />
+        <option name="mavenHome" value="C:/Java/maven" />
+        <option name="userSettingsFile" value="C:\Java\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="675" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Data flowJava</id>
+          </State>
+          <State>
+            <id>Data flowJavaScript</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="@designMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@designMode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="@designMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@designMode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="@designMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@designMode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="designMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designMode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,34 +225,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="569b1857-411d-46f2-8fc9-2ad8d60b2ea9" name="Default Changelist" comment="" />
-      <created>1544960082979</created>
+      <changelist id="e807e2f1-8c03-4629-b9d4-321f9c762c12" name="Default Changelist" comment="" />
+      <created>1600786087772</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544960082979</updated>
-      <workItem from="1544960100969" duration="75000" />
+      <updated>1600786087772</updated>
+      <workItem from="1600786100428" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75000" />
+    <option name="totallyTimeSpent" value="67000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
       <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -139,13 +260,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="JRebel Setup Guide" weight="0.32980332" />
+      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -156,15 +276,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_singleton/SingleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
