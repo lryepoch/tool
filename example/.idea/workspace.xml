@@ -1,41 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="1771d625-681a-4934-8c8b-fbd9b8def94d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
     <list default="true" id="ada33326-5e58-4d71-87ac-2dad2562cf0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../db/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/src/test/java/com/db/TestDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Wanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/e1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/websocket/ChatApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/websocket/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/websocket/bean/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/websocket/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/websocket/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/websocket/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/websocket/controller/WebSocketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/resources/static/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/resources/static/sockjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/resources/static/stomp.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/regex/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/thread/CountOperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/before/thread/CountOperate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/thread/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/before/thread/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/thread/a1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/before/thread/a1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quartz/MyScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quartz/MyScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quartz/MyScheduler2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quartz/MyScheduler2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadB.java" afterDir="false" />
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/Wanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/Wanger.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,46 +16,47 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="FUSProjectUsageTrigger">
-    <session id="-228289041">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="5" />
-        </counts>
-      </usages-collector>
-    </session>
-=======
-  <component name="FileEditorManager">
-    <leaf />
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/Wanger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/regex/Test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-<<<<<<< HEAD
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-=======
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -123,11 +93,12 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/q.java" />
         <option value="$PROJECT_DIR$/src/main/java/quartz/MyScheduler.java" />
         <option value="$PROJECT_DIR$/src/main/java/quartz/MyScheduler2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/Wanger.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/e1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ExecutorServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/regex/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/Wanger.java" />
       </list>
     </option>
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -137,16 +108,16 @@
         <option name="userSettingsFile" value="C:\Java\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
-    <option name="width" value="675" />
-    <option name="height" value="728" />
-=======
     <option name="x" value="958" />
     <option name="width" value="972" />
     <option name="height" value="1047" />
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -205,7 +176,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -230,7 +203,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
@@ -244,24 +216,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
-=======
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
-=======
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597407393536" />
@@ -270,11 +236,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-<<<<<<< HEAD
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-=======
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -288,9 +250,7 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-=======
-  <component name="RunManager" selected="Application.e1">
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="MyScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="quartz.MyScheduler" />
       <module name="example" />
@@ -317,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadB" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="regex.Test1" />
       <module name="example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,29 +318,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.e1" />
         <item itemvalue="Application.Wanger" />
         <item itemvalue="Application.MyScheduler2" />
         <item itemvalue="Application.MyScheduler" />
-        <item itemvalue="Application.ThreadB" />
       </list>
     </recent_temporary>
   </component>
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1771d625-681a-4934-8c8b-fbd9b8def94d" name="Default Changelist" comment="" />
+      <changelist id="ada33326-5e58-4d71-87ac-2dad2562cf0b" name="Default Changelist" comment="" />
       <created>1596959709200</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
-      <updated>1596959709200</updated>
-      <workItem from="1596959711208" duration="2481000" />
-      <workItem from="1598966825210" duration="110000" />
-=======
       <updated>1593238819871</updated>
       <workItem from="1593238821270" duration="4008000" />
       <workItem from="1593426084755" duration="20135000" />
@@ -391,7 +345,8 @@
       <workItem from="1596000715533" duration="3840000" />
       <workItem from="1596765807494" duration="95000" />
       <workItem from="1597632556575" duration="16688000" />
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
+      <workItem from="1603081479947" duration="4015000" />
+      <workItem from="1603365597180" duration="2466000" />
     </task>
     <servers />
   </component>
@@ -428,10 +383,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="2591000" />
-=======
-    <option name="totallyTimeSpent" value="56904000" />
+    <option name="totallyTimeSpent" value="66185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,33 +393,12 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-<<<<<<< HEAD
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21566524" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-=======
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.19259657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.25751072" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.19635193" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -476,18 +407,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3170189" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.51233906" weight="0.3170189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921347" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3259177" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.48766094" side_tool="true" weight="0.3170189" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32921347" />
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
+      <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,45 +429,12 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-<<<<<<< HEAD
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/before/thread/a1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/before/thread/CountOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/before/thread/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-=======
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -562,22 +460,22 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/compare/ex1/CompareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/compare/ex1/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/http/Email.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -786,12 +684,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -892,16 +790,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/q.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="39" selection-start-line="39" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/q.java" />
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -958,6 +847,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/time/LocalTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ExecutorServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/e1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -965,26 +862,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Wanger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/regex/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="304">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/time/LocalTime.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Wanger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
->>>>>>> 653b0e03f18ad1d6d132cd46bb1baf32b6c8bd95
+        <state relative-caret-position="399">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
