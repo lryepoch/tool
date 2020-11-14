@@ -1,6 +1,4 @@
-package before.fatherANDson;
-
-import before.fatherANDson.Animal;
+package fatherANDson;
 
 public class Cat extends Animal {
 	private String head="2";

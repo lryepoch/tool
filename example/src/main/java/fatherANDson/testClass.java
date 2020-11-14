@@ -1,7 +1,4 @@
-package before.fatherANDson;
-
-import before.fatherANDson.Animal;
-import before.fatherANDson.Cat;
+package fatherANDson;
 
 public class testClass {
 

@@ -60,12 +60,12 @@ public class FileTest3 {
 
 
 /*    public static void multiFile(File file) {
-        LinkedList<File> list = new LinkedList<>();
-        list.push(file);
+        LinkedList<File> list.list = new LinkedList<>();
+        list.list.push(file);
 
-        while (!list.isEmpty()) {
+        while (!list.list.isEmpty()) {
 
-            File f1 = list.pop();
+            File f1 = list.list.pop();
 
             if (f1.isDirectory()){
                 new Thread(new Runnable() {
@@ -74,7 +74,7 @@ public class FileTest3 {
 
                         File[] files = f1.listFiles();
                         for (File f2 : files) {
-                            list.push(f2);
+                            list.list.push(f2);
                         }
                     }
 

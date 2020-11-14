@@ -1,6 +1,6 @@
-package before.fatherANDson;
+package fatherANDson;
 
-//JavaÖÐÀà¼ÓÔØµÄË³Ðò
+//Javaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½Ë³ï¿½ï¿½
 class C {
 	C() {
 		System.out.print("C");
@@ -22,7 +22,7 @@ class A {
 
 public class other extends A {
 	other() {
-		// super("B");//ÏÔÊ¾µ÷ÓÃ¸¸ÀàµÄ¹¹Ôìº¯Êý£¬²»ÏÔÊ¾ÔòÄ¬ÈÏµ÷ÓÃ¸¸ÀàµÄÎÞ²Î¹¹ÔìÆ÷
+		// super("B");//ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ã¸ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ìº¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Ä¬ï¿½Ïµï¿½ï¿½Ã¸ï¿½ï¿½ï¿½ï¿½ï¿½Þ²Î¹ï¿½ï¿½ï¿½ï¿½ï¿½
 		System.out.print("B");
 	}
 
@@ -61,7 +61,7 @@ public class other extends A {
 //
 //	public static void main(String args[]) {
 //		int n = 0;
-//		other person = new other(28, "zhansan"); // ³õÊ¼»¯Ä¬ÈÏÖµÊÇÕâÑù×Ó
+//		other person = new other(28, "zhansan"); // ï¿½ï¿½Ê¼ï¿½ï¿½Ä¬ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //		System.out.println("person1:" + person);
 //		person.Uname(person);
 //		person.Pname(person);
@@ -70,8 +70,8 @@ public class other extends A {
 //	}
 //
 //	public void Uname(lry person) {
-//		person.age = 8; // ¸³ÓèÐÂµÄÖµ
-//		person.name = "L"; // ¸³ÓèÐÂµÄÖµ
+//		person.age = 8; // ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½Öµ
+//		person.name = "L"; // ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½Öµ
 //		System.out.println("person2:" + person);
 //		System.out.println(this.age);
 //	}
@@ -107,10 +107,10 @@ public class other extends A {
 
 /*
 //**
-* Java¿ÉÒÔ×Ô¶¯±àÒë
+* Javaï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½
 * @author martylee
 *
-*ÏòÏÂ×ªÐÍÐèÒªÇ¿ÖÆ×ª»»
+*ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ÒªÇ¿ï¿½ï¿½×ªï¿½ï¿½
 *
 *//*
 class Base
@@ -136,16 +136,16 @@ public class HelloWorld
 {
   public static void main(String[] args)
   {
-      Base base = new Son();//ÏòÉÏ×ªÐÍ
-      base.method();//¸¸Àà¶ªÊ§ÁËmethodB·½·¨,ËùÒÔ base.methodB();»á³ö´í
+      Base base = new Son();//ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½
+      base.method();//ï¿½ï¿½ï¿½à¶ªÊ§ï¿½ï¿½methodBï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ base.methodB();ï¿½ï¿½ï¿½ï¿½ï¿½
     //base.methodB();
       
-      Son son=(Son)base;//ÏòÏÂ×ªÐÍ,±àÒëÎÞ´í£¬ÔËÐÐÎÞ´í£¬ÏòÏÂÐèÒªÇ¿ÖÆ×ª»»
+      Son son=(Son)base;//ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÇ¿ï¿½ï¿½×ªï¿½ï¿½
       son.method();
       son.methodB();
       
       Base base2=new Base();
-      Son son2=(Son) base2;//ÏòÏÂ×ªÐÍ£¬±àÒëÎÞ´í£¬ÔËÐÐÎÞ´í
+      Son son2=(Son) base2;//ï¿½ï¿½ï¿½ï¿½×ªï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½
       son2.method();
       son2.methodB();
       

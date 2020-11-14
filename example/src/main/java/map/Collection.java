@@ -7,10 +7,12 @@ import java.util.List;
 import java.util.Set;
 
 //ArrayList
-/*public class Collection {
+public class Collection {
 	public static void main(String[] args) {
 
 		List<String> list = new ArrayList<>();
+		System.out.println(list==null);
+		System.out.println(list.size());
 		list.add("haha");
 		list.add("zenggou");
 
@@ -47,18 +49,18 @@ import java.util.Set;
 		}
 
 	}
-}*/
+}
 
  //HashSet
-public class Collection {
-	public static void main(String[] args) {
-		Set set = new HashSet();
-		set.add("zenggou");
-		set.add("goubi");
-		set.add("zenggou");
-		set.add("google");
-		System.out.println(set.size());
-		System.out.println(set.toString());
-
-	}
-}
+//public class Collection {
+//	 public static void main(String[] args) {
+//		 Set set = new HashSet();
+//		 set.add("zenggou");
+//		 set.add("goubi");
+//		 set.add("zenggou");
+//		 set.add("google");
+//		 System.out.println(set.size());
+//		 System.out.println(set.toString());
+//
+//	 }
+//}

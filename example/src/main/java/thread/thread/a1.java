@@ -1,4 +1,4 @@
-package before.thread;
+package thread.thread;
 
 /*import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -15,15 +15,15 @@ public class a1 {
         Thread t1 = new Thread(){
             public void run(){
                 try {
-                    System.out.println( now()+" t1 Ïß³ÌÒÑ¾­ÔËÐÐ");
-                    System.out.println( now()+this.getName()+ " ÊÔÍ¼Õ¼ÓÐ¶ÔÏó£ºsomeObject");
+                    System.out.println( now()+" t1 ï¿½ß³ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½");
+                    System.out.println( now()+this.getName()+ " ï¿½ï¿½Í¼Õ¼ï¿½Ð¶ï¿½ï¿½ï¿½someObject");
                     synchronized (someObject) {
                          
-                        System.out.println( now()+this.getName()+ " Õ¼ÓÐ¶ÔÏó£ºsomeObject");
+                        System.out.println( now()+this.getName()+ " Õ¼ï¿½Ð¶ï¿½ï¿½ï¿½someObject");
                         Thread.sleep(5000);
-                        System.out.println( now()+this.getName()+ " ÊÍ·Å¶ÔÏó£ºsomeObject");
+                        System.out.println( now()+this.getName()+ " ï¿½Í·Å¶ï¿½ï¿½ï¿½someObject");
                     }
-                    System.out.println(now()+" t1 Ïß³Ì½áÊø");
+                    System.out.println(now()+" t1 ï¿½ß³Ì½ï¿½ï¿½ï¿½");
                 } catch (InterruptedException e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
@@ -36,14 +36,14 @@ public class a1 {
  
             public void run(){
                 try {
-                    System.out.println( now()+" t2 Ïß³ÌÒÑ¾­ÔËÐÐ");
-                    System.out.println( now()+this.getName()+ " ÊÔÍ¼Õ¼ÓÐ¶ÔÏó£ºsomeObject");
+                    System.out.println( now()+" t2 ï¿½ß³ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½");
+                    System.out.println( now()+this.getName()+ " ï¿½ï¿½Í¼Õ¼ï¿½Ð¶ï¿½ï¿½ï¿½someObject");
                     synchronized (someObject) {
-                        System.out.println( now()+this.getName()+ " Õ¼ÓÐ¶ÔÏó£ºsomeObject");
+                        System.out.println( now()+this.getName()+ " Õ¼ï¿½Ð¶ï¿½ï¿½ï¿½someObject");
                         Thread.sleep(5000);
-                        System.out.println( now()+this.getName()+ " ÊÍ·Å¶ÔÏó£ºsomeObject");
+                        System.out.println( now()+this.getName()+ " ï¿½Í·Å¶ï¿½ï¿½ï¿½someObject");
                     }
-                    System.out.println(now()+" t2 Ïß³Ì½áÊø");
+                    System.out.println(now()+" t2 ï¿½ß³Ì½ï¿½ï¿½ï¿½");
                 } catch (InterruptedException e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();

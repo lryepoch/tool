@@ -11,20 +11,24 @@ import java.util.Optional;
 public class OptionalTest {
     public static void main(String[] args) {
 
-        //1.
+        //1.ofNullable
         Optional name= Optional.ofNullable("javaHuang");
         System.out.println(name);
         System.out.println(name.isPresent());
         System.out.println(name.get());
 
-        Optional emptyValue = Optional.ofNullable(null);
+        Optional emptyValue = Optional.ofNullable(null);//""
         System.out.println(emptyValue);
         System.out.println(emptyValue.isPresent());
 //        System.out.println(emptyValue.get());//java.util.NoSuchElementException: No value present
 
+        Optional<List<Object>> stringList = Optional.ofNullable(null);
+        System.out.println(stringList.get().size());
+
         System.out.println("----------------------");
 
-        //2.
+
+        //2.of
         Optional<String> optional = Optional.of("javaHuang");
         System.out.println(optional);
         System.out.println(optional.isPresent());
@@ -38,8 +42,6 @@ public class OptionalTest {
 
         System.out.println("-------------------------");
 
-        Optional<List<Object>> stringList = Optional.ofNullable(null);
-        System.out.println(stringList.get().size());
 
     }
 }
