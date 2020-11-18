@@ -1,7 +1,7 @@
-package com.direct;
+package rabbitmq.direct;
 
 import cn.hutool.core.util.RandomUtil;
-import com.fanout.RabbitMQUtil;
+import rabbitmq.fanout.RabbitMQUtil;
 import com.rabbitmq.client.*;
 
 import java.io.IOException;

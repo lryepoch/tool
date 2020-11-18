@@ -1,4 +1,4 @@
-package com.fanout;
+package rabbitmq.fanout;
 
 import cn.hutool.core.util.RandomUtil;
 import com.rabbitmq.client.*;

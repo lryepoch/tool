@@ -1,6 +1,6 @@
-package com.topic;
+package rabbitmq.topic;
 
-import com.fanout.RabbitMQUtil;
+import rabbitmq.fanout.RabbitMQUtil;
 import com.rabbitmq.client.*;
 
 import java.io.IOException;

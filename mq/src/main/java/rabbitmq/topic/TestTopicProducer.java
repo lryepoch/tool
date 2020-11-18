@@ -1,6 +1,6 @@
-package com.topic;
+package rabbitmq.topic;
 
-import com.fanout.RabbitMQUtil;
+import rabbitmq.fanout.RabbitMQUtil;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;

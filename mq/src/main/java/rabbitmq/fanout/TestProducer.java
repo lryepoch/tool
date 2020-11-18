@@ -1,6 +1,5 @@
-package com.direct;
+package rabbitmq.fanout;
 
-import com.fanout.RabbitMQUtil;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
@@ -13,8 +12,8 @@ import java.util.concurrent.TimeoutException;
  * @date 2020/5/22 17:55
  * @description TODO
  */
-public class TestDirectProducer {
-    public final static String QUEUE_NAME="direct_queue";
+public class TestProducer {
+    public final static String EXCHANGE_NAME="fanout_exchange";
 
     public static void main(String[] args) throws IOException, TimeoutException, InterruptedException {
         //判断服务器是否启动
@@ -32,10 +31,13 @@ public class TestDirectProducer {
         //创建一个通道
         Channel channel = connection.createChannel();
 
+        //交换机声明(参数为：交换机名称；交换机类型)
+        channel.exchangeDeclare(EXCHANGE_NAME,"direct");
+
         for (int i=0;i<100;i++){
             String message = "direct消息"+i;
             //发送消息到队列中
-            channel.basicPublish("", QUEUE_NAME,null,message.getBytes("UTF-8"));
+            channel.basicPublish(EXCHANGE_NAME,"",null,message.getBytes("UTF-8"));
             System.out.println("发送消息："+message);
             Thread.sleep(1000);
         }

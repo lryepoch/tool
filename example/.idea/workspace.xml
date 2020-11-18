@@ -2,39 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada33326-5e58-4d71-87ac-2dad2562cf0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mq/src/main/java/kafka/MsgConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mq/src/main/java/kafka/MsgProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mq/src/main/resources/consumer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mq/src/main/resources/producer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/src/main/java/com/direct/TestDirectCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/src/main/java/com/direct/TestDirectProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/src/main/java/com/fanout/RabbitMQUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/src/main/java/com/fanout/TestCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/src/main/java/com/fanout/TestProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/src/main/java/com/topic/TestCustomer4News.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/src/main/java/com/topic/TestCustomer4USA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/src/main/java/com/topic/TestTopicProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RabbitMQ/target/classes/com/fanout/TestProducer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/fatherANDson/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fatherANDson/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/fatherANDson/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fatherANDson/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/fatherANDson/other.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fatherANDson/other.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/fatherANDson/testClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fatherANDson/testClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/file/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/file/FileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/file/FileInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/file/FileInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/file/FileOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/file/FileOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/file/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/file/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/map/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/Collection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/map/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/TestMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/CalendarD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/CalendarD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/DateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/Fanshe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/Fanshe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/Mathc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/Mathc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/Sanyuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/Sanyuan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/StaticBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/StaticBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/TypeD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/TypeD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/UUID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/UUID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/other/substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/substring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/socket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/socket/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/thread/CountOperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/thread/CountOperate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/thread/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/thread/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/thread/a1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/thread/a1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/threadpool/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadpool/MyCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/before/threadpool/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadpool/ThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/file/FileTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/file/FileTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/OptionalTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -350,7 +338,7 @@
       <workItem from="1603081479947" duration="4015000" />
       <workItem from="1603365597180" duration="6506000" />
       <workItem from="1604372805117" duration="6791000" />
-      <workItem from="1605168824416" duration="2875000" />
+      <workItem from="1605168824416" duration="4990000" />
     </task>
     <task id="LOCAL-00001" summary="-update:&#10;  1.新增；">
       <created>1603710522491</created>
@@ -402,7 +390,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79891000" />
+    <option name="totallyTimeSpent" value="82006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,7 +404,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.19152361" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.19098713" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.19635193" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
