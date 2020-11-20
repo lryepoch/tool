@@ -26,6 +26,7 @@ public class MsgConsumer {
         }
 
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
+
         //指定消费的topic
         consumer.subscribe(Arrays.asList("lytest"));
         while (true) {

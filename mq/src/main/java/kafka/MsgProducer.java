@@ -13,7 +13,7 @@ import java.util.Properties;
  * @description TODO 生产者
  */
 public class MsgProducer {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Properties props = new Properties();
 
@@ -24,19 +24,14 @@ public class MsgProducer {
         }
 
         //读取配置文件
-        Producer<String, String> producer = null;
-        try {
-            producer = new KafkaProducer<>(props);
-            for (int i = 0; i < 100; i++) {
-                String msg = "---------" + i + "--------";
-                producer.send(new ProducerRecord<>("lytest", i + "", msg));
-                System.out.println("生产数据 key：value -> " + i + "：" + msg);
-                Thread.sleep(1000);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            producer.close();
+        Producer<String, String> producer = new KafkaProducer<>(props);
+
+        for (int i = 0; i < 100; i++) {
+            String msg = "---------" + i + "--------";
+            producer.send(new ProducerRecord<>("lytest", i + "", msg));
+            System.out.println("生产数据 key：value -> " + i + "：" + msg);
+            Thread.sleep(1000);
         }
+        producer.close();
     }
 }
