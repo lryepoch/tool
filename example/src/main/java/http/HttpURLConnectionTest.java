@@ -4,6 +4,12 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+* @description HttpURLConnection发起get和post请求
+* @author lryepoch
+* @date 2020/11/23 11:35
+*
+*/
 public class HttpURLConnectionTest {
 
     public static void get(String validateUrl) {
