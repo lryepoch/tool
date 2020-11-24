@@ -34,7 +34,6 @@ public class MsgProducer {
 
 
 
-
     /*-------2.单例模式-----*/
     private volatile static MsgProducer instance;
     private MsgProducer(){}
