@@ -14,25 +14,54 @@ import java.util.Properties;
  * @description TODO 消费者
  */
 public class MsgConsumer {
-    public static void main(String[] args) {
+    /*-------1------*/
+//    public static void main(String[] args) {
+//        //读取配置文件
+//        Properties props=new Properties();
+//        try {
+//            props.load(MsgConsumer.class.getResourceAsStream("/consumer.properties"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
+//        //指定消费的topic
+//        consumer.subscribe(Arrays.asList("lytest"));
+//        while (true) {
+//            ConsumerRecords<String, String> records = consumer.poll(100);
+//            for (ConsumerRecord<String, String> record : records) {
+//                System.out.printf("offset = %d, key = %s, value = %s, headers = %s%n", record.offset(), record.key(), record.value(), record.headers());
+//            }
+//        }
+//    }
 
-        //读取配置文件
-        Properties props=new Properties();
 
+    /*-------2.单例模式---------*/
+    private static MsgConsumer instance = new MsgConsumer();
+    public static MsgConsumer getInstance(){
+        return instance;
+    }
+    public static KafkaConsumer consumer=null;
+    static {
+        Properties properties = new Properties();
         try {
-            props.load(MsgConsumer.class.getResourceAsStream("/consumer.properties"));
+            properties.load(instance.getClass().getResourceAsStream("/consumer.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
+        consumer = new KafkaConsumer(properties);
+    }
 
-        KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
+    //外部调用对象
+    public KafkaConsumer getConsumer(){
+        return consumer;
+    }
 
-        //指定消费的topic
-        consumer.subscribe(Arrays.asList("lytest"));
-        while (true) {
-            ConsumerRecords<String, String> records = consumer.poll(100);
-            for (ConsumerRecord<String, String> record : records) {
-                System.out.printf("offset = %d, key = %s, value = %s, headers = %s%n", record.offset(), record.key(), record.value(), record.headers());
+    public static void main(String[] args) {
+        consumer.subscribe(Arrays.asList("recommend"));
+        while(true){
+            ConsumerRecords<String, Integer> records = consumer.poll(100);
+            for (ConsumerRecord record:records){
+                System.out.printf("offset=%d, key=%s, value=%s%n", record.offset(), record.key(), record.value());
             }
         }
     }
