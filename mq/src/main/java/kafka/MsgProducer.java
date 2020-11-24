@@ -14,23 +14,23 @@ import java.util.Properties;
  */
 public class MsgProducer {
     /*----------1--------*/
-    public static void main(String[] args) throws InterruptedException {
-        Properties props = new Properties();
-        try {
-            props.load(MsgProducer.class.getResourceAsStream("/producer.properties"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        //读取配置文件
-        Producer<String, String> producer = new KafkaProducer<>(props);
-        for (int i = 0; i < 100; i++) {
-            String msg = "---------" + i + "--------";
-            producer.send(new ProducerRecord<>("lytest", i + "", msg));
-            System.out.println("生产数据 key：value -> " + i + "：" + msg);
-            Thread.sleep(1000);
-        }
-        producer.close();
-    }
+//    public static void main(String[] args) throws InterruptedException {
+//        Properties props = new Properties();
+//        try {
+//            props.load(MsgProducer.class.getResourceAsStream("/producer.properties"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        //读取配置文件
+//        Producer<String, String> producer = new KafkaProducer<>(props);
+//        for (int i = 0; i < 100; i++) {
+//            String msg = "---------" + i + "--------";
+//            producer.send(new ProducerRecord<>("lytest", i + "", msg));
+//            System.out.println("生产数据 key：value -> " + i + "：" + msg);
+//            Thread.sleep(1000);
+//        }
+//        producer.close();
+//    }
 
 
 
