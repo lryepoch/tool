@@ -1,9 +1,9 @@
-package timed_task;
+package timer;
 
 /**
  * @author lryepoch
  * @date 2020/7/2 10:22
- * @description TODO thread + while + sleep 实现定时功能
+ * @description TODO getThreadName + while + sleep 实现定时功能
  */
 public class TestTimeOrder {
     public static void main(String[] args) {

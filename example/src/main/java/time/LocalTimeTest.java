@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
  * @date 2019/12/29 14:28
  * @description
  */
-public class LocalTime {
+public class LocalTimeTest {
     public static void main(String[] args) {
 
         System.out.println(LocalDateTime.now());

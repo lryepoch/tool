@@ -7,9 +7,9 @@ import java.util.concurrent.*;
 /**
  * @author lryepoch
  * @date 2020/8/17 10:52
- * @description TODO
+ * @description TODO 测试线程池
  */
-public class Wanger {
+public class ThreadPoolTest {
     public static void main(String[] args) throws InterruptedException {
         //1
         /*        for (int i=0;i<10;i++){
@@ -70,13 +70,13 @@ public class Wanger {
 //            Runnable r = new Runnable() {
 //                @Override
 //                public void run() {
-//                    Wanger.addCount();
+//                    ThreadPoolTest.addCount();
 //                }
 //            };
 //            executorService.execute(r);
 //        }
 //        executorService.shutdown();
-//        System.out.println(Wanger.count);
+//        System.out.println(ThreadPoolTest.count);
     }
 
     public static int count = 0;

@@ -1,4 +1,4 @@
-package thread.thread;
+package thread.getThreadName;
 
 public class CountOperate extends Thread{
 	public CountOperate(){

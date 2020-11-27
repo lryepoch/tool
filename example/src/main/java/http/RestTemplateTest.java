@@ -4,7 +4,6 @@ package http;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
-import regex.Test1;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -55,7 +54,7 @@ public class RestTemplateTest {
         System.out.println("简单带路径变量参数Get请求:" + result);
 
         //3.返回对象Get请求（注意需包含compile group: 'com.google.code.gson', name: 'gson', version: '2.8.5'）
-        ResponseEntity<Test1> responseEntity1 = restTemplate.getForEntity(rootUrl + "get3/339", Test1.class);
+        ResponseEntity<GetIpTest> responseEntity1 = restTemplate.getForEntity(rootUrl + "get3/339", GetIpTest.class);
         System.out.println("返回:" + responseEntity1);
         System.out.println("返回对象Get请求:" + responseEntity1.getBody());
 
@@ -67,21 +66,21 @@ public class RestTemplateTest {
 
 
         //5. Post对象
-        Test1 test1 = new Test1();
+        GetIpTest test1 = new GetIpTest();
         test1.name = "buter";
         test1.sex = 1;
         result = restTemplate.postForObject(rootUrl + "post1", test1, String.class);
         System.out.println("Post对象:" + result);
 
         //6.带header的Post数据请求
-        response = restTemplate.postForEntity(rootUrl + "post2", new HttpEntity<Test1>(test1, headers), String.class);
+        response = restTemplate.postForEntity(rootUrl + "post2", new HttpEntity<GetIpTest>(test1, headers), String.class);
         System.out.println("带header的Post数据请求:" + response.getBody());
 
         //7.带header的Put数据请求
         //无返回值
-        restTemplate.put(rootUrl + "put1", new HttpEntity<Test1>(test1, headers));
+        restTemplate.put(rootUrl + "put1", new HttpEntity<GetIpTest>(test1, headers));
         //带返回值
-        response = restTemplate.exchange(rootUrl + "put1", HttpMethod.PUT, new HttpEntity<Test1>(test1, headers), String.class);
+        response = restTemplate.exchange(rootUrl + "put1", HttpMethod.PUT, new HttpEntity<GetIpTest>(test1, headers), String.class);
         System.out.println("带header的Put数据请求:" + response.getBody());
 
         //8.del请求

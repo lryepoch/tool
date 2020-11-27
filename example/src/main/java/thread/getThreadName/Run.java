@@ -1,4 +1,4 @@
-package thread.thread;
+package thread.getThreadName;
 
 public class Run {
 	public static void main(String[] args){

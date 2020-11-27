@@ -1,4 +1,4 @@
-package timed_task;
+package timer;
 
 import java.util.Timer;
 import java.util.TimerTask;

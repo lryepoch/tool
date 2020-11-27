@@ -1,11 +1,11 @@
-package thread;
+package thread.getThreadName;
 
 /**
  * @author lryepoch
  * @date 2020/8/18 15:58
  * @description TODO
  */
-public class e1 {
+public class GetThreadNameTest {
     public static void main(String[] args) {
         Thread a = new Thread();
         Thread b = new Thread();
