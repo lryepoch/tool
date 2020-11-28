@@ -13,7 +13,7 @@ public class SharedVariableThread extends Thread {
     @Override
     synchronized public void run() {
         count--;
-        System.out.println("由" + this.currentThread().getName() + "计算,count=" + count);
+        System.out.println( this.currentThread().getName() + " , count=" + count);
     }
 
     public static void main(String[] args) {
