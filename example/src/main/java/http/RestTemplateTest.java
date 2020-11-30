@@ -11,8 +11,9 @@ import java.util.Map;
 /**
  * @author lryepoch
  * @date 2020/11/23 11:41
- * @description TODO 传统情况下在java代码里访问restful服务，一般使用Apache的HttpClient。不过此种方法使用起来太过繁琐。
- * spring提供了一种简单便捷的模板类来进行操作，这就是RestTemplate。
+ * @description 传统情况下在java代码里访问restful服务，一般使用Apache的HttpClient。不过此种方法使用起来太过繁琐，
+ *              spring提供了一种简单便捷的模板类来进行操作，这就是RestTemplate。
+ *
  */
 public class RestTemplateTest {
 
