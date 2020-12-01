@@ -1,7 +1,5 @@
 package thread;
 
-import lombok.SneakyThrows;
-
 import java.util.concurrent.*;
 
 /**
@@ -60,12 +58,12 @@ public class ThreadPoolTest {
          */
 //        ExecutorService fixedThreadPool = Executors.newFixedThreadPool(3);
 //        for (int i = 0; i < 10; i++) {
-//            fixedThreadPool.execute(new Runnable() {
-//                @SneakyThrows
-//                @Override
-//                public void run() {
-//                    System.out.println(Thread.currentThread().getName());
+//            fixedThreadPool.execute(() -> {
+//                System.out.println(Thread.currentThread().getName());
+//                try {
 //                    Thread.sleep(1000);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
 //                }
 //            });
 //        }
@@ -86,7 +84,7 @@ public class ThreadPoolTest {
          */
 //        ExecutorService executorService = new ThreadPoolExecutor(10, 1000, 60L, TimeUnit.SECONDS, new ArrayBlockingQueue<>(10));
 //        for (int i = 0; i < 100; i++) {
-//            Runnable r = new Runnable() {
+//            Runnable runnable = new Runnable() {
 //                @Override
 //                public void run() {
 //                    System.out.println(Thread.currentThread().getName());
@@ -94,7 +92,7 @@ public class ThreadPoolTest {
 //                    System.out.println(ThreadPoolTest.count);
 //                }
 //            };
-//            executorService.execute(r);
+//            executorService.execute(runnable);
 //            Thread.sleep(1000);
 //        }
 //        executorService.shutdown();
