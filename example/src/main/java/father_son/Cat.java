@@ -1,4 +1,4 @@
-package fatherANDson;
+package father_son;
 
 public class Cat extends Animal {
 	private String head="2";

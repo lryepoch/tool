@@ -13,13 +13,15 @@ public class RandomExample {
 
         @Override
         public void run() {
-            threadLocal.set((int) (Math.random() * 100D));
+            int number = (int) (Math.random() * 100D);
+            System.out.println(Thread.currentThread().getName() + " 产生随机数：" + number);
+            threadLocal.set(number);
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("当前threadlocal保存的值：" + threadLocal.get());
+            System.out.println(Thread.currentThread().getName() +" 中当前threadlocal保存的值：" + threadLocal.get());
         }
     }
 

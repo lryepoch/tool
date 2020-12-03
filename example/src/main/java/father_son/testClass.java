@@ -1,4 +1,4 @@
-package fatherANDson;
+package father_son;
 
 public class testClass {
 

@@ -42,7 +42,8 @@ public class NumUtil {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return addNumThreadLocal.get() + 10;
+        int a = addNumThreadLocal.get() + 10;
+        return a;
     }
 
     public static void main(String[] args) {
@@ -57,4 +58,5 @@ public class NumUtil {
         }
         service.shutdown();
     }
+
 }
