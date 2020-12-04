@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f24bb57-22e4-4ca7-8ac3-ae283b8864de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/other/ThisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/threadlocal/TestThreadLocal1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/threadlocal/TestThreadLocal2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fatherANDson/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/father_son/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fatherANDson/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/father_son/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fatherANDson/other.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/father_son/other.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fatherANDson/testClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/father_son/testClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/threadlocal/NumUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/threadlocal/NumUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/threadlocal/RandomExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/threadlocal/RandomExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/direct/TestDirectCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/direct/TestDirectCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/direct/TestDirectProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/direct/TestDirectProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/fanout/RabbitMQUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/fanout/RabbitMQUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/fanout/TestCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/fanout/TestCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/fanout/TestProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/fanout/TestProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/topic/TestCustomer4News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/topic/TestCustomer4News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/topic/TestCustomer4USA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/topic/TestCustomer4USA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/topic/TestTopicProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mq/src/main/java/rabbitmq/topic/TestTopicProducer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,9 +59,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="964" />
-    <option name="y" value="2" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="972" />
     <option name="height" value="1047" />
   </component>
@@ -81,6 +80,32 @@
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,15 +218,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606783364165</updated>
-      <workItem from="1606783365496" duration="24868000" />
+      <workItem from="1606783365496" duration="25761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24868000" />
+    <option name="totallyTimeSpent" value="25761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -221,7 +246,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37486094" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37486094" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

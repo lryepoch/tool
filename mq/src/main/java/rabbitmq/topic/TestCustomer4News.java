@@ -17,18 +17,25 @@ public class TestCustomer4News {
     public static void main(String[] args) throws IOException, TimeoutException {
         //为当前消费者取名称
         final String name = "consumer-news";
+
         //判断服务器是否启动
-        RabbitMQUtil.checkServer();
+//        RabbitMQUtil.checkServer();
+
         //创建连接工厂
         ConnectionFactory factory = new ConnectionFactory();
+
         //设置RabbitMQ地址
         factory.setHost("localhost");
+
         //创建一个新的连接
         Connection connection = factory.newConnection();
+
         //创建一个通道
         Channel channel = connection.createChannel();
+
         //交换机声明(参数为：交换机名称；交换机类型)
         channel.exchangeDeclare(EXCHANGE_NAME, "topic");
+
         //获取一个临时队列
         String queueName = channel.queueDeclare().getQueue();
 
