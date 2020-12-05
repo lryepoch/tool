@@ -18,6 +18,8 @@ public class SharedVariableThread extends Thread {
 
     public static void main(String[] args) {
         SharedVariableThread sharedVariableThread = new SharedVariableThread();
+//        sharedVariableThread.start();
+
         Thread a = new Thread(sharedVariableThread, "A");
         Thread b = new Thread(sharedVariableThread, "B");
         Thread c = new Thread(sharedVariableThread, "C");

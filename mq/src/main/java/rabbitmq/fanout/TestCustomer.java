@@ -20,8 +20,7 @@ public class TestCustomer {
         final String name = "consumer-" + RandomUtil.randomString(5);
 
         //判断服务器是否启动
-        RabbitMQUtil.checkServer();
-        ;
+//        RabbitMQUtil.checkServer();
 
         //创建连接工厂
         ConnectionFactory factory = new ConnectionFactory();

@@ -13,10 +13,11 @@ public class RabbitMQUtil {
     public static void main(String[] args) {
         checkServer();
     }
-    public static void checkServer(){
+
+    public static void checkServer() {
         System.out.println(NetUtil.isUsableLocalPort(15672));
-        if (NetUtil.isUsableLocalPort(15672)){
-            JOptionPane.showMessageDialog(null,"RabbitMQ服务器未启动");
+        if (NetUtil.isUsableLocalPort(15672)) {
+            JOptionPane.showMessageDialog(null, "RabbitMQ服务器未启动");
             System.exit(1);
         }
         System.out.println("RabbitMQ服务器已启动");

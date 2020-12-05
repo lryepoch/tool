@@ -17,7 +17,7 @@ public class TestCustomer4USA {
     public static void main(String[] args) throws IOException, TimeoutException {
         final String name = "consumer-usa";
 
-        RabbitMQUtil.checkServer();
+//        RabbitMQUtil.checkServer();
 
         ConnectionFactory factory = new ConnectionFactory();
 
