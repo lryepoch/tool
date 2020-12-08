@@ -1,11 +1,9 @@
-package quartz;
-
+package schedule.quartz;
 
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 
 import java.util.concurrent.TimeUnit;
-
 
 /**
  * @author lryepoch
@@ -25,6 +23,7 @@ public class MyScheduler {
 
         //3.构建Trigger实例，每隔1s执行一次
         Trigger trigger =TriggerBuilder.newTrigger()
+                //定义名称和所属的组
                 .withIdentity("trigger1","triggerGroup1")
                 .startNow()//立即生效
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule()
@@ -33,12 +32,12 @@ public class MyScheduler {
                 .build();//一直执行
 
         //4.执行
-        scheduler.scheduleJob(jobDetail,trigger);
+        scheduler.scheduleJob(jobDetail, trigger);
         System.out.println("-------scheduler start!-----");
         scheduler.start();
 
         //5.睡眠，1min
-        TimeUnit.MINUTES.sleep(1);
+        TimeUnit.SECONDS.sleep(10);
         scheduler.shutdown();
         System.out.println("---------scheduler shutdown!---------");
     }

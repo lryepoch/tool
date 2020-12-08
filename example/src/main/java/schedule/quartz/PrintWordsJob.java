@@ -1,4 +1,4 @@
-package quartz;
+package schedule.quartz;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
@@ -11,7 +11,7 @@ import java.util.Random;
 /**
  * @author lryepoch
  * @date 2020/7/1 15:54
- * @description TODO
+ * @description TODO 任务Job: 做什么工作
  */
 public class PrintWordsJob implements Job {
     @Override

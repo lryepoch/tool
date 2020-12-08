@@ -1,4 +1,4 @@
-package timer;
+package schedule.timer;
 
 import java.util.Timer;
 import java.util.TimerTask;
