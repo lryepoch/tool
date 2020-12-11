@@ -1,4 +1,4 @@
-package timer;
+package schedule.timer;
 
 /**
  * @author lryepoch
