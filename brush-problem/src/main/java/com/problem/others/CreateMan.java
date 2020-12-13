@@ -1,4 +1,4 @@
-package others;
+package com.problem.others;
 
 class Man {
 	private String name=null;
@@ -17,19 +17,19 @@ class Man {
 	void modifyName(String name1){
 		name=name1;
 		
-	}  //ÐÞ¸ÄÐÕÃû
+	}  //ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½
 	void modifySex(boolean b){
 		  sex=b;
-	  }//ÐÞ¸ÄÐÔ±ð
+	  }//ï¿½Þ¸ï¿½ï¿½Ô±ï¿½
 	void modefyNum(long no){
 		  num=no;
 	  } 
 	String getName(){
 		return name;
-	}              //È¡µÃÐÕÃû
+	}              //È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	boolean getSex(){
 		  return sex;
-	  }               //È¡µÃÐÔ±ð
+	  }               //È¡ï¿½ï¿½ï¿½Ô±ï¿½
 	long getNum(){
 		  return num;
 	}
@@ -40,9 +40,9 @@ public class CreateMan{
 		Man man1=new Man("jxy");
 		man1.modefyNum(12);
 		man1.modifySex(true);
-		System.out.println("ÐÕÃû"+man1.getName()+"\n"
-				+"Ñ§ºÅ"+man1.getNum()+"\n"
-				+"ÐÔ±ð"+man1.getSex()+"\n");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½"+man1.getName()+"\n"
+				+"Ñ§ï¿½ï¿½"+man1.getNum()+"\n"
+				+"ï¿½Ô±ï¿½"+man1.getSex()+"\n");
 		
 	}
 }

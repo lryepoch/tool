@@ -1,4 +1,4 @@
-package regex;
+package com.problem.regex;
 
 //检验是否是身份证
 public class IDcard {

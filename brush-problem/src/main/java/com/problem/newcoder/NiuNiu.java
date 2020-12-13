@@ -1,4 +1,4 @@
-package newcoder;
+package com.problem.newcoder;
 
 class NiuNiu{
 	public void twoSum(int n,int target){

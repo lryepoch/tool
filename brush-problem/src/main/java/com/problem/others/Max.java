@@ -1,4 +1,4 @@
-package others;
+package com.problem.others;
 
 public class Max {
 	int i=0;

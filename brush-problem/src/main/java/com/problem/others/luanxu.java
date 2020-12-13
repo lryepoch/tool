@@ -1,4 +1,4 @@
-package others;
+package com.problem.others;
 
 import java.util.List;
 import java.util.ArrayList;

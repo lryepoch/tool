@@ -1,4 +1,4 @@
-package others;
+package com.problem.others;
 class Point{
 	int x,y;
 }
