@@ -11,6 +11,7 @@ import java.util.concurrent.TimeoutException;
  * @author lryepoch             producer->broker->exchange->bindings->queues->consumer
  * @date 2020/5/22 17:55
  * @description TODO exchange=广播模式，消息来了，会发给所有的队列~
+ *                   发布/订阅模式
  */
 public class TestProducer {
     public final static String EXCHANGE_NAME = "fanout_exchange";

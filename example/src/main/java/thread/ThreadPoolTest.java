@@ -45,7 +45,12 @@ public class ThreadPoolTest {
 //            executorService.execute(r);
 //            Thread.sleep(1000);
 //        }
+//        关闭线程池
 //        executorService.shutdown();
+//        //此处不可以删除或注释，需要所有子线程执行结束后再执行别的内容，即只有所有子线程结束后才会继续向下执行
+//        while (!fixedThreadPool.isTerminated()) {
+//
+//        }
 
 
         /**
@@ -67,13 +72,15 @@ public class ThreadPoolTest {
 //                }
 //            });
 //        }
-//        //关闭线程池
+//        //关闭线程池。与使用数据库连接池一样，每次使用完毕后，都要关闭线程池。
 //        fixedThreadPool.shutdown();
 //
-//        //此处不可以删除或注释，需要线程执行结束后再执行别的内容，即只有线程结束后才会继续向下执行
+//        //此处不可以删除或注释，需要所有子线程执行结束后再执行别的内容，即只有所有子线程结束后才会继续向下执行
 //        while (!fixedThreadPool.isTerminated()) {
 //
 //        }
+
+
 
 
         /**
@@ -95,7 +102,14 @@ public class ThreadPoolTest {
 //            executorService.execute(runnable);
 //            Thread.sleep(1000);
 //        }
+//        关闭线程池
 //        executorService.shutdown();
+
+//        //此处不可以删除或注释，需要所有子线程执行结束后再执行别的内容，即只有所有子线程结束后才会继续向下执行
+//        while (!fixedThreadPool.isTerminated()) {
+//
+//        }
+
     }
 
     public static int count = 0;
