@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+       default-autowire="byName">
+
+    <!--在配置文件中添加我们的bean配置，在mybatis的使用中一般会配置扫描的dao层包，这样就可以减少这部分的配置。-->
+    <bean id="userDao" class="org.itstack.demo.design.agent.RegisterBeanFactory"/>
+
+</beans>

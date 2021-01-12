@@ -7,7 +7,8 @@ import org.itstack.demo.desgin.factory.impl.IIRCacheAdapter;
 import org.itstack.demo.desgin.impl.CacheServiceImpl;
 import org.junit.Test;
 
-/**
+/**             「替换Redis双集群升级，代理类抽象场景」
+ *
 * @description 抽象工厂模式
 * @author      lryepoch
 * @date        2020/12/13 21:44

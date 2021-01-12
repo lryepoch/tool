@@ -35,9 +35,9 @@
         <module>itstack-demo-design-10-00</module>
         <module>itstack-demo-design-10-01</module>
         <module>itstack-demo-design-10-02</module>
-        <module>itstack-demo-design-11-02</module>
-        <module>itstack-demo-design-11-01</module>
-        <module>itstack-demo-design-12-00</module>
+        <module>11-01-flyweight</module>
+        <module>11-02-flyweight</module>
+        <module>12-00-proxy</module>
         <module>itstack-demo-design-13-00</module>
         <module>itstack-demo-design-13-01</module>
         <module>itstack-demo-design-13-02</module>
@@ -48,14 +48,14 @@
         <module>itstack-demo-design-16-01</module>
         <module>itstack-demo-design-16-02</module>
         <module>itstack-demo-design-17-00</module>
-        <module>itstack-demo-design-18-00</module>
-        <module>itstack-demo-design-18-01</module>
-        <module>itstack-demo-design-18-02</module>
+        <module>18-00-observer</module>
+        <module>18-01-observer</module>
+        <module>18-02-observer</module>
         <module>itstack-demo-design-19-00</module>
         <module>itstack-demo-design-19-01</module>
         <module>itstack-demo-design-19-02</module>
-        <module>itstack-demo-design-20-01</module>
-        <module>itstack-demo-design-20-02</module>
+        <module>20-01-strategy</module>
+        <module>20-02-strategy</module>
         <module>itstack-demo-design-21-00</module>
         <module>itstack-demo-design-22-00</module>
     </modules>
@@ -96,5 +96,18 @@
             </exclusions>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
