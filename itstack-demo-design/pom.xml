@@ -41,9 +41,9 @@
         <module>itstack-demo-design-13-00</module>
         <module>itstack-demo-design-13-01</module>
         <module>itstack-demo-design-13-02</module>
-        <module>itstack-demo-design-14-00</module>
-        <module>itstack-demo-design-14-01</module>
-        <module>itstack-demo-design-14-02</module>
+        <module>14-00-command</module>
+        <module>14-01-command</module>
+        <module>14-02-command</module>
         <module>itstack-demo-design-15-00</module>
         <module>itstack-demo-design-16-01</module>
         <module>itstack-demo-design-16-02</module>
@@ -57,7 +57,7 @@
         <module>20-01-strategy</module>
         <module>20-02-strategy</module>
         <module>itstack-demo-design-21-00</module>
-        <module>itstack-demo-design-22-00</module>
+        <module>22-00-visitor</module>
     </modules>
 
     <dependencies>
