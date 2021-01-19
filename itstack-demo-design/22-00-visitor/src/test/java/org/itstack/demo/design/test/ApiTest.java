@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
+/**         「模拟家长与校长，对学生和老师的不同视角信息的访问场景」
  * 想让不同视角的用户获取关心的信息，就比较适合使用观察者模式来实现，从而让实体与业务解耦，增强扩展性。但观察者模式的整体类结构相对复杂，需要梳理清楚再开发。
  * <p>
  * 有以下几点：

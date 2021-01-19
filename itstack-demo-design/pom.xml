@@ -25,16 +25,16 @@
         <module>itstack-demo-design-6-00</module>
         <module>itstack-demo-design-6-01</module>
         <module>itstack-demo-design-6-02</module>
-        <module>itstack-demo-design-7-01</module>
-        <module>itstack-demo-design-7-02</module>
+        <module>7-01-bridge</module>
+        <module>7-02-bridge</module>
         <module>itstack-demo-design-8-01</module>
         <module>itstack-demo-design-8-02</module>
         <module>itstack-demo-design-9-00</module>
         <module>itstack-demo-design-9-01</module>
         <module>itstack-demo-design-9-02</module>
-        <module>itstack-demo-design-10-00</module>
-        <module>itstack-demo-design-10-01</module>
-        <module>itstack-demo-design-10-02</module>
+        <module>10-00-door</module>
+        <module>10-01-door</module>
+        <module>10-02-door</module>
         <module>11-01-flyweight</module>
         <module>11-02-flyweight</module>
         <module>12-00-proxy</module>
