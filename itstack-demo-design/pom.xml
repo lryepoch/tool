@@ -29,9 +29,9 @@
         <module>7-02-bridge</module>
         <module>itstack-demo-design-8-01</module>
         <module>itstack-demo-design-8-02</module>
-        <module>itstack-demo-design-9-00</module>
-        <module>itstack-demo-design-9-01</module>
-        <module>itstack-demo-design-9-02</module>
+        <module>9-00-decorator</module>
+        <module>9-01-decorator</module>
+        <module>9-02-decorator</module>
         <module>10-00-door</module>
         <module>10-01-door</module>
         <module>10-02-door</module>
@@ -44,10 +44,10 @@
         <module>14-00-command</module>
         <module>14-01-command</module>
         <module>14-02-command</module>
-        <module>itstack-demo-design-15-00</module>
+        <module>15-00-iterator</module>
         <module>itstack-demo-design-16-01</module>
         <module>itstack-demo-design-16-02</module>
-        <module>itstack-demo-design-17-00</module>
+        <module>17-00-memento</module>
         <module>18-00-observer</module>
         <module>18-01-observer</module>
         <module>18-02-observer</module>
