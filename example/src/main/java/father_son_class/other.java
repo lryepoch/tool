@@ -33,12 +33,12 @@ public class other extends A {
 
 
 //
-//public class other{
+//public class base{
 //
 //	private int age;
 //	private String name;
 //
-//	public other(int age, String name) {
+//	public base(int age, String name) {
 //		this.age = age;
 //		this.name = name;
 //	}
@@ -61,7 +61,7 @@ public class other extends A {
 //
 //	public static void main(String args[]) {
 //		int n = 0;
-//		other person = new other(28, "zhansan"); // ��ʼ��Ĭ��ֵ��������
+//		base person = new base(28, "zhansan"); // ��ʼ��Ĭ��ֵ��������
 //		System.out.println("person1:" + person);
 //		person.Uname(person);
 //		person.Pname(person);
@@ -90,7 +90,7 @@ public class other extends A {
 
 
 
-//public class other {
+//public class base {
 //	public static void main(String[] args) {
 //		try {
 //			int i = 100 / 0;

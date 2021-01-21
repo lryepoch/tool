@@ -1,4 +1,4 @@
-package other;
+package base;
 
 //round、ceil、floor区别
 public class random {

@@ -1,4 +1,4 @@
-package other;
+package base;
 
 //三元运算符+类型转换
 public class Sanyuan {

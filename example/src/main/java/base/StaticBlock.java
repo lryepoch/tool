@@ -1,4 +1,4 @@
-package other;
+package base;
 
 //静态代码块和构造函数之间执行顺序
 class SBlock{

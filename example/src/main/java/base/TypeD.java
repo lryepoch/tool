@@ -1,4 +1,4 @@
-package other;
+package base;
 
 public class TypeD {
 	public static void main(String args[]){

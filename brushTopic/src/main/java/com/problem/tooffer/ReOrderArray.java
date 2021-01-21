@@ -6,23 +6,23 @@ package com.problem.tooffer;
  */
 public class ReOrderArray {
     public void reOrderArray(int[] array) {
-        StringBuffer s = new StringBuffer();
+        StringBuffer s1 = new StringBuffer();
         StringBuffer s2 = new StringBuffer();
 
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 1) {
-                s.append(array[i]);
+                s1.append(array[i]);
             } else {
                 s2.append(array[i]);
             }
         }
-        System.out.print(s);
+        System.out.print(s1);
         System.out.println();
         System.out.print(s2);
         System.out.println();
-        s.append(s2);
-        System.out.println(s);
-        String s3 = s.toString();
+        s1.append(s2);
+        System.out.println(s1);
+        String s3 = s1.toString();
         System.out.println("string型：" + s3);
 
         char[] s4 = s3.toCharArray();
@@ -40,8 +40,8 @@ public class ReOrderArray {
 
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6, 7};
-        ReOrderArray o = new ReOrderArray();
-        o.reOrderArray(array);
+        ReOrderArray orderArray = new ReOrderArray();
+        orderArray.reOrderArray(array);
         for (int i : array) {
             System.out.print(i + " ");
         }

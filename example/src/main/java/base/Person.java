@@ -1,4 +1,4 @@
-package other;
+package base;
 
 //Java链式操作
 class Persion {

@@ -1,4 +1,4 @@
-package other;
+package base;
 
 //对象和类的反射
 public class Fanshe {

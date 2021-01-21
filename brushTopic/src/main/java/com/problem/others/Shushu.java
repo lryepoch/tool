@@ -11,7 +11,6 @@ public class Shushu {
             boolean flag = true;
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
-
                     flag = false;
                     break;        //不是素数，跳出for循环
                 }

@@ -1,4 +1,4 @@
-package other;
+package base;
 
 public class substring {
 	public static void main(String[] args) {
