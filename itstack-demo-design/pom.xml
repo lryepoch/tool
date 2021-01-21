@@ -22,13 +22,13 @@
         <module>4-01-prototype</module>
         <module>4-02-prototype</module>
         <module>5-00-singleton</module>
-        <module>itstack-demo-design-6-00</module>
-        <module>itstack-demo-design-6-01</module>
-        <module>itstack-demo-design-6-02</module>
+        <module>6-00-adapter</module>
+        <module>6-01-adapter</module>
+        <module>6-02-adapter</module>
         <module>7-01-bridge</module>
         <module>7-02-bridge</module>
-        <module>itstack-demo-design-8-01</module>
-        <module>itstack-demo-design-8-02</module>
+        <module>8-01-composite</module>
+        <module>8-02-composite</module>
         <module>9-00-decorator</module>
         <module>9-01-decorator</module>
         <module>9-02-decorator</module>
@@ -38,25 +38,25 @@
         <module>11-01-flyweight</module>
         <module>11-02-flyweight</module>
         <module>12-00-proxy</module>
-        <module>itstack-demo-design-13-00</module>
-        <module>itstack-demo-design-13-01</module>
-        <module>itstack-demo-design-13-02</module>
+        <module>13-00-cor</module>
+        <module>13-01-cor</module>
+        <module>13-02-cor</module>
         <module>14-00-command</module>
         <module>14-01-command</module>
         <module>14-02-command</module>
         <module>15-00-iterator</module>
-        <module>itstack-demo-design-16-01</module>
-        <module>itstack-demo-design-16-02</module>
+        <module>16-01-mediator</module>
+        <module>16-02-mediator</module>
         <module>17-00-memento</module>
         <module>18-00-observer</module>
         <module>18-01-observer</module>
         <module>18-02-observer</module>
-        <module>itstack-demo-design-19-00</module>
-        <module>itstack-demo-design-19-01</module>
-        <module>itstack-demo-design-19-02</module>
+        <module>19-00-state</module>
+        <module>19-01-state</module>
+        <module>19-02-state</module>
         <module>20-01-strategy</module>
         <module>20-02-strategy</module>
-        <module>itstack-demo-design-21-00</module>
+        <module>21-00-template</module>
         <module>22-00-visitor</module>
     </modules>
 
