@@ -3,7 +3,7 @@ package thread.threadlocal;
 /**
  * @author lryepoch
  * @date 2020/12/3 16:57
- * @description TODO 开启三个新的线程，每个线程对数据进行累加。每个线程的值都是1~5，没有出现混加。这就实现了每个线程之间的数据的隔离。
+ * @description TODO 开启三个新的线程，每个线程对数据进行累加。每个线程的值都是1~5进行递增，没有出现混加。这就实现了每个线程之间的数据的隔离。
  */
 public class TestThreadLocal1 {
 

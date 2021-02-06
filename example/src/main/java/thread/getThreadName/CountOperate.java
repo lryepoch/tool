@@ -1,5 +1,8 @@
 package thread.getThreadName;
 
+/**
+* 获取线程名
+*/
 public class CountOperate extends Thread {
 
     public CountOperate() {

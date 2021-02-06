@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author lryepoch
  * @date 2020/12/1 9:31
- * @description TODO
+ * @description TODO 读取数字+10
  */
 public class NumUtil {
 
@@ -29,7 +29,7 @@ public class NumUtil {
     }
 
     /**
-     * @description ThreadLocal的使用
+     * @description ThreadLocal的使用，没问题
      * @author lryepoch
      * @date 2020/12/1 9:44
      */

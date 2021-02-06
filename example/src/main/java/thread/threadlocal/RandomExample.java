@@ -3,7 +3,9 @@ package thread.threadlocal;
 /**
  * @author lryepoch
  * @date 2020/11/30 9:57
- * @description TODO
+ * @description TODO 两个线程共享一个MyRunnable实例。
+ *                   每个线程执行run()方法的时候，会给同一个ThreadLocal实例设置不同的值。如果调用set()方法的时候用synchronized关键字同步，
+ *                   而且不是一个ThreadLocal对象实例，那么第二个线程将会覆盖第一个线程所设置的值。
  */
 public class RandomExample {
 
@@ -26,8 +28,9 @@ public class RandomExample {
     }
 
     public static void main(String[] args) {
+        //线程任务
         MyRunnable sharedRunnableInstance = new MyRunnable();
-
+        //线程对象thread1/thread2
         Thread thread1 = new Thread(sharedRunnableInstance);
         Thread thread2 = new Thread(sharedRunnableInstance);
 

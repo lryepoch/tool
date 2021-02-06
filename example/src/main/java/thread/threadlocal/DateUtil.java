@@ -9,10 +9,13 @@ import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+* 读取日期
+*/
 public class DateUtil {
 
     /**
-     * @description 出现NumberException异常
+     * @description 出现NumberException异常。SimpleDateFormat类线程不安全
      * @author lryepoch
      * @date 2020/12/1 8:50
      */
