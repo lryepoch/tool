@@ -2,7 +2,9 @@ package base;
 
 import java.util.HashMap;
 
-
+/**
+* hashcode() equals()
+*/
 public class People {
 	private String name;
 	private int age;
