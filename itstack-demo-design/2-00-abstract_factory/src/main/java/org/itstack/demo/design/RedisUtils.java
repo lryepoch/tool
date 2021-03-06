@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 
 /**
-* @description 自定义redis
+* @description 自定义redis工具类
 * @author      lryepoch
 * @date        2020/12/13 1:05
 */

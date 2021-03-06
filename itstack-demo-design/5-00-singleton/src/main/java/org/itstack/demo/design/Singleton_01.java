@@ -9,10 +9,10 @@ package org.itstack.demo.design;
  */
 public class Singleton_01 {
 
-    private static Singleton_01 instance;
-
     private Singleton_01() {
     }
+
+    private static Singleton_01 instance;
 
     public static Singleton_01 getInstance() {
         if (null != instance) {

@@ -8,7 +8,7 @@ import java.util.Map;
 public class TestMap {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Map<String, Integer> map = new HashMap<String, Integer>();
+		Map<String, Integer> map = new HashMap<>();
 		map.put("大学物理", 99);
 		map.put("大学英语", 100);
 		map.put("高等数学", 99);
