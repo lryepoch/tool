@@ -2,7 +2,7 @@ package thread;
 
 /**
  * @author lryepoch
- * @description 数据不共享
+ * @description 数据不共享，线程安全
  * @date 2020/7/29 14:01
  */
 public class NoSharedVariableThread extends Thread {
