@@ -12,6 +12,7 @@
         <module>db-document</module>
         <module>xls-manage</module>
         <module>hutool</module>
+        <module>jwt</module>
     </modules>
 
 

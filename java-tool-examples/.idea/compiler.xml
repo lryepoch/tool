@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xls-manage" />
-        <module name="hutool" />
+        <module name="jwt" />
         <module name="db-document" />
+        <module name="hutool" />
+        <module name="xls-manage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
