@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea389ad8-775f-4400-aaa9-6583c3919b86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/src/main/java/com/jwt/hs256/HS256Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/src/main/java/com/jwt/rs256/CreateSecrteKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/src/main/java/com/jwt/rs256/RSA256Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/src/main/java/com/jwt/rs256/RSA256Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt/src/main/java/com/jwt/rs256/SHA256SignUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +20,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,6 +69,7 @@
         <option value="$PROJECT_DIR$/jwt/src/main/java/com/jwt/rs256/CreateSecrteKey.java" />
         <option value="$PROJECT_DIR$/jwt/src/main/java/com/jwt/rs256/SHA256SignUtil.java" />
         <option value="$PROJECT_DIR$/jwt/src/main/java/com/jwt/rs256/RSA256Test.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -105,12 +107,27 @@
               <item name="java-tool-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-tool-examples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-tool-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-tool-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="hutool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-tool-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-tool-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-tool-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-tool-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="xls-manage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,16 +215,18 @@
       <updated>1620973980228</updated>
       <workItem from="1620973982958" duration="1181000" />
       <workItem from="1623213330148" duration="9316000" />
+      <workItem from="1623234725261" duration="1220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10497000" />
+    <option name="totallyTimeSpent" value="11717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23229614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23551503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -215,7 +234,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32925472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3448276" />
@@ -230,6 +248,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32925472" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -509,6 +528,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="25" column="27" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
