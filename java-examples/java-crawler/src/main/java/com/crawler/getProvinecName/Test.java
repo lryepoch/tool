@@ -6,14 +6,13 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * 获取全国的每个省的城市以及对应的区域代码
- * 输入到一个字典（json）
+ * 输入到一个字典（com.base.json）
  */
 public class Test {
     /**
@@ -105,7 +104,7 @@ public class Test {
     public static void main(String[] args) throws IOException {
         Map<String, Map<String,String>> map = new HashMap<String, Map<String, String>>();
         parseProvinceName(map, "http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/");
-//        System.out.println(map);
+//        System.out.println(com.base.map);
         System.out.println(JSON.toJSONString(map));
     }
 }

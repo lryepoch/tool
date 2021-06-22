@@ -29,7 +29,7 @@ public class Login2Test {
                 .followRedirects(false)//禁止重定向
                 .postDataCharset("utf-8")
                 .header("Upgrade-Insecure-Requests", "1")
-                .header("Accept", "application/json")
+                .header("Accept", "application/com.base.json")
                 .header("X-Requested-With", "XMLHttpRequest")
                 .header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36")
                 .data(data)

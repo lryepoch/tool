@@ -13,6 +13,7 @@
         <module>xls-manage</module>
         <module>hutool</module>
         <module>jwt</module>
+        <module>captcha</module>
     </modules>
 
 

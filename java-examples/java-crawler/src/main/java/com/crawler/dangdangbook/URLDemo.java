@@ -84,7 +84,7 @@ public class URLDemo {
                                 href = href.substring(0, href.indexOf(">"));
                             }
                         }
-                        if (href.startsWith("http:") || href.startsWith("https:")) {
+                        if (href.startsWith("com.base.http:") || href.startsWith("https:")) {
                             //输出该网页存在的链接
                             //System.out.println(href);
                             //将url地址放到队列中

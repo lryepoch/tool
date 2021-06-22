@@ -17,7 +17,7 @@ public class Login3Test {
         HttpUriRequest login = RequestBuilder.post()
                 .setUri(new URI(loginUrl))
                 .setHeader("Upgrade-Insecure-Requests","1")
-                .setHeader("Accept","application/json")
+                .setHeader("Accept","application/com.base.json")
                 .setHeader("Content-Type","application/x-www-form-urlencoded")
                 .setHeader("User-Agent","Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36")
                 .addParameter("name","13415824288")

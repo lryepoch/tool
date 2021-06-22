@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
-        <module name="xls-manage" />
         <module name="db-document" />
         <module name="hutool" />
+        <module name="xls-manage" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="captcha" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
