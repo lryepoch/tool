@@ -1,4 +1,4 @@
-package com.base.father_son_class;
+package com.base.base.father_son_class;
 
 //Java������ص�˳��
 class C {
