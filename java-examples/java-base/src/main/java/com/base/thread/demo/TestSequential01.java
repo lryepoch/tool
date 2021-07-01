@@ -5,7 +5,7 @@ package com.base.thread.demo;
  * @date 2021/6/28 17:29
  * @description TODO 三个线程无序竞争同步锁, 如果遇上的是自己的数字, 就打印. 这种方式会浪费大量的循环
  */
-public class TestSequential1 {
+public class TestSequential01 {
     private volatile int pos = 1;
     private volatile int count = 0;
 
@@ -22,7 +22,7 @@ public class TestSequential1 {
     }
 
     public static void main(String[] args) {
-        TestSequential1 demo = new TestSequential1();
+        TestSequential01 demo = new TestSequential01();
         for (int i = 1; i <= 3; i++) {
             int j = i;
             new Thread(() -> {
