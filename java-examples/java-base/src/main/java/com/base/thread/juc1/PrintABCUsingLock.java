@@ -1,10 +1,11 @@
-package com.base.thread.demo2;
+package com.base.thread.juc1;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 1思路：使用一个取模的判断逻辑 C%M ==N，题为 3 个线程，所以可以按取模结果编号：0、1、2，
+ * 1思路：使用 Lock
+ * 使用一个取模的判断逻辑 C%M ==N，题为 3 个线程，所以可以按取模结果编号：0、1、2，
  * 他们与 3 取模结果仍为本身，则执行打印逻辑。
  */
 public class PrintABCUsingLock {

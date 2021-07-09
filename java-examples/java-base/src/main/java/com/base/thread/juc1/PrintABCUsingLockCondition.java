@@ -1,4 +1,4 @@
-package com.base.thread.demo2;
+package com.base.thread.juc1;
 
 
 import java.util.concurrent.locks.Condition;
@@ -12,6 +12,8 @@ import java.util.concurrent.locks.ReentrantLock;
  * <p>
  * 不同的是，Object 中的 wait(),notify(),notifyAll()方法是和"同步锁"(synchronized关键字)捆绑使
  * 用的；而 Condition 是需要与"互斥锁"/"共享锁"捆绑使用的。
+ * <p>
+ * 使用 Lock 锁的多个 Condition 可以实现精准唤醒，所以碰到那种多个线程交替打印不同次数的题就比较容易想到
  */
 public class PrintABCUsingLockCondition {
 

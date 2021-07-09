@@ -1,4 +1,4 @@
-package com.base.socket;
+package com.base.socket.demo1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,7 +29,8 @@ public class Client {
 			//3.创建输入流，接收服务端响应的信息
 			InputStream is =socket.getInputStream();
 			BufferedReader br = new BufferedReader(new InputStreamReader(is));
-			String info=null;
+
+			String info;
 			while((info=br.readLine())!=null){
 				System.out.println("我是客户端，服务端说："+info);
 			}

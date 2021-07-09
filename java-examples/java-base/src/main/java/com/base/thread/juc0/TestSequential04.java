@@ -1,4 +1,4 @@
-package com.base.thread.demo;
+package com.base.thread.juc0;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

@@ -1,9 +1,10 @@
-package com.base.thread.demo2;
+package com.base.thread.juc1;
 
 /**
-* 1思路：还是以第一题为例，我们用对象监视器来实现，通过 wait 和 notify() 方法来实现等待、通知的逻辑，
+ * 1思路：使用 wait/notify
+ * 用对象监视器来实现，通过 wait 和 notify() 方法来实现等待、通知的逻辑，
  * A 执行后，唤醒 B，B 执行后唤醒 C，C 执行后再唤醒 A，这样循环的等待、唤醒来达到目的。
-*/
+ */
 public class PrintABCUsingWaitNotify {
 
     private int state;

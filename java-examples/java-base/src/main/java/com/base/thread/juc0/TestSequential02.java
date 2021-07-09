@@ -1,4 +1,4 @@
-package com.base.thread.demo;
+package com.base.thread.juc0;
 
 /**
  * @author lryepoch
